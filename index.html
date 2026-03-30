@@ -20,14 +20,17 @@
         <label id="number-label" for="number">Age: </label>
         <input type="number" id="number" name="customer-age" placeholder="25" min="3" max="120" required>
     </fieldset>
+    <p>
+        <label for="nationality">What nationality's cuisine do you choose?</label><br>
     <select id="dropdown">
-        <option value="appetizer">Appetizer</option>
-        <option value="main-course">Main Course</option>
-        <option value="dessert">Dessert</option>
+        <option value="thai-food">Thai</option>
+        <option value="italian-food">Italian</option>
+        <option value="mexican-food">Mexican</option>
+    </p>
     </select>
     <fieldset>
-        <legend>How would you rate our restaurant?</legend>
-        <label for="food-quality">Food Quality</label><br>
+        <legend>Food Quality</legend>
+        <label for="food">Food is always fresh: </label>
         <input type="radio" id="excellent" name="rating" value="excellent">
         <label for="excellent">Excellent</label>
         <input type="radio" id="good" name="rating" value="good">
