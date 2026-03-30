@@ -26,11 +26,21 @@
         <option value="thai-food">Thai</option>
         <option value="italian-food">Italian</option>
         <option value="mexican-food">Mexican</option>
+        </select>
     </p>
+    <p>
+        <label for="visit-frequency">How often do you visit our restaurant?</label><br>
+    <select id="visit-frequency">
+        <option value="every-day">Every day</option>
+        <option value="twice-and-three">Twice or three times a week</option>
+        <option value="weekly">Weekly</option>
+        <option value="rarely">Rarely</option>
+    </p>
+    <p></p>
     </select>
     <fieldset>
         <legend>Food Quality</legend>
-        <label for="food">Food is always fresh: </label>
+        <label for="fresh">Food is always fresh: </label>
         <input type="radio" id="excellent" name="rating" value="excellent">
         <label for="excellent">Excellent</label>
         <input type="radio" id="good" name="rating" value="good">
@@ -39,6 +49,8 @@
         <label for="average">Average</label>
         <input type="radio" id="poor" name="rating" value="poor">
         <label for="poor">Poor</label>
+
+        <label for="menu"></label>
     </fieldset>
 
     </form>
