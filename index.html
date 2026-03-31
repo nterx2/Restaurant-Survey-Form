@@ -35,12 +35,19 @@
         <option value="twice-and-three">Twice or three times a week</option>
         <option value="weekly">Weekly</option>
         <option value="rarely">Rarely</option>
-    </p>
-    <p></p>
     </select>
+    </p>
+    <p>
+        <label for="comeback-again">Would you consider returning to dine at our restaurant?</label><br>
+        <input type="radio" id="yes" name="comeback" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="comeback" value="no">
+        <label for="no">No</label>
+    </p>
+    
     <fieldset>
         <legend>Food Quality</legend>
-        <label for="fresh">Food is always fresh: </label>
+        <label for="food-fresh">Food is always fresh: </label>
         <input type="radio" id="excellent" name="rating" value="excellent">
         <label for="excellent">Excellent</label>
         <input type="radio" id="good" name="rating" value="good">
@@ -49,6 +56,7 @@
         <label for="average">Average</label>
         <input type="radio" id="poor" name="rating" value="poor">
         <label for="poor">Poor</label>
+
 
         <label for="menu"></label>
     </fieldset>
